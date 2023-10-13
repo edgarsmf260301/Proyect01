@@ -17,7 +17,7 @@ body{
     width: 65%;
     margin: 0px auto;
     margin-top: 30px;
-    padding: 20px;
+    padding: 25px;
     background: #ffffff;
     box-shadow: 0px 0px 10px #cccccc;
 }
@@ -81,7 +81,7 @@ body{
     color: #333333;
 }
 
-.post span{
+.post .date{
     display: block;
     color: #cccccc;
     margin-top: 5px;
@@ -94,13 +94,64 @@ body{
 }
 
 .button-more{
+    display: block;
     font-size: 14px;
     text-align: center;
-    display: block;
     padding: 15px;
     background: #235E3D;
     color: #ffffff;
     text-decoration: none;
-    margin-top: 20px;
-    float: left;
+    margin-top: 10px;
+    width: 70px;
+}
+
+#sidebar{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 31%;
+    float: right;
+    margin: auto;
+}
+#sidebar h4{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 10px;
+    color: #333333;
+    background: url("../img/lines.png") repeat-x;
+}
+#sidebar h4 span{
+    background: #ffffff;
+    padding: 4px;
+}
+
+#sidebar img{
+    width: 100%;
+}
+
+#sidebar p{
+    font-size: 15px;
+    text-align: justify;
+}
+
+form input[type="text"],
+form input[type="password"],
+for input[type="email"]{
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid #cccccc;
+    width: 80%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+form input[type="submit"]{
+    font-size: 14px;
+    background: #235E3D;
+    color: #ffffff;
+    border-radius: 1px;
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
 }
