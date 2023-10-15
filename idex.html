@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto con JavaScript</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script type="text/JavaScript" src="js/main.js"></script>
+    <!--Moment.js-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.0/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.0/locale/es.js"></script>
 </head>
 
 <body>
@@ -25,41 +33,17 @@
                 </ul>
             </nav>
         </header>
-        <!-- Slider -->
         <div id="Slider">
-
+            <div class="bxslider">
+                <div><img src="img/hojas.jpg" title="Hoja" /></div>
+                <div><img src="img/rojo.jpg" title="Color" /></div>
+                <div><img src="img/cielo.jpg" title="Cielo" /></div>
+              </div>
         </div>
         <!-- Contenido -->
         <section id="content">
             <div id="posts">
-                <article class="post">
-                    <h2>Titulo del articulo</h2>
-                    <span class="date">Fecha de Publicacion</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean feugiat nibh sed molestie
-                        dignissim. Duis dictum arcu ut consectetur elementum. Suspendisse sit amet enim ac mauris
-                        maximus venenatis. Mauris nunc velit, lacinia molestie vehicula eget, blandit a diam. Vestibulum
-                        eu vulputate sem. Cras vel gravida tellus. Integer iaculis est vel felis tincidunt, eget tempor
-                        ante molestie. Vestibulum scelerisque tellus sed mauris eleifend porttitor. Integer est enim,
-                        mollis vel justo id, vehicula lacinia diam. Quisque consequat lobortis dui, ut sodales velit
-                        auctor ac.
-                    </p>
-                    <a href="#" class="button-more">leer más</a>
-                    <div class="clearfix"></div>
-                </article>
-                <article class="post">
-                    <h2>Titulo del articulo</h2>
-                    <span class="date">Fecha de Publicacion</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean feugiat nibh sed molestie
-                        dignissim. Duis dictum arcu ut consectetur elementum. Suspendisse sit amet enim ac mauris
-                        maximus venenatis. Mauris nunc velit, lacinia molestie vehicula eget, blandit a diam. Vestibulum
-                        eu vulputate sem. Cras vel gravida tellus. Integer iaculis est vel felis tincidunt, eget tempor
-                        ante molestie. Vestibulum scelerisque tellus sed mauris eleifend porttitor. Integer est enim,
-                        mollis vel justo id, vehicula lacinia diam. Quisque consequat lobortis dui, ut sodales velit
-                        auctor ac.
-                    </p>
-                    <a href="#" class="button-more">leer más</a>
-                    <div class="clearfix"></div>
-                </article>
+                <!-- Carga posts desde json -->
             </div>
 
             <aside id="sidebar">

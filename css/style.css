@@ -162,7 +162,12 @@ footer {
     background: rgba(51, 51, 51, 0.70);
     margin: 0px auto;
     width: 65%;
-    padding: 20px 0px;
+    padding-left: 20px; 
+    padding-right: 20px;
     margin-top: 50px;
     line-height: 47px;
+}
+
+.bx-wrapper, .bx-viewport {
+    height: 250px !important;
 }
