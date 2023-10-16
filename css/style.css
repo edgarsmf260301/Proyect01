@@ -139,24 +139,28 @@ body {
 
 form input[type="text"],
 form input[type="password"],
-for input[type="email"] {
+form input[type="email"] {
     padding: 5px;
     border-radius: 2px;
     border: 1px solid #cccccc;
-    width: 80%;
+    width: 92%;
     margin-bottom: 10px;
     margin-top: 5px;
 }
+
 
 form input[type="submit"] {
     font-size: 14px;
     background: #235E3D;
     color: #ffffff;
-    border-radius: 1px;
-    padding: 5px;
-    width: 100px;
+    padding: 5px ;
+    width: 100%;
     border-radius: 5px;
-    cursor: pointer;
+    cursor: pointer; 
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    border: none;
 }
 
 footer {
@@ -219,4 +223,20 @@ footer {
     text-decoration: none;
     display: block;
     float: right;
+}
+
+#logout{
+    font-size: 14px;
+    background: #235E3D;
+    color: #ffffff;
+    border-radius: 1px;
+    padding: 5px ;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer; 
+    display: block;
+    left: 10px;
+    margin-top: 18px;
+    text-decoration: none;
 }
