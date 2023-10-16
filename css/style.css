@@ -1,19 +1,19 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-.clearfix{
+.clearfix {
     float: none;
     clear: both;
 }
 
-body{
+body {
     background: url("../img/hojas.jpg");
     background-attachment: fixed;
 }
 
-#global{
+#global {
     width: 65%;
     margin: 0px auto;
     margin-top: 30px;
@@ -22,7 +22,7 @@ body{
     box-shadow: 0px 0px 10px #cccccc;
 }
 
-#logo{
+#logo {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 28px;
     line-height: 75px;
@@ -35,30 +35,30 @@ body{
     float: left;
 }
 
-#menu{
-  font-family: Arial, Helvetica, sans-serif;
-  background: #333333;
-  width: 100%;
-  text-transform: 20px;
-  margin-bottom: 20px;
+#menu {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #333333;
+    width: 100%;
+    text-transform: 20px;
+    margin-bottom: 20px;
 }
 
-#menu ul{
+#menu ul {
     line-height: 46px;
     list-style: none;
 }
 
-#menu ul li{
+#menu ul li {
     height: 46px;
     display: inline-block;
     transition: all 300ms;
 }
 
-#menu ul li:hover{
+#menu ul li:hover {
     background: #235E3D;
 }
 
-#menu a{
+#menu a {
     display: block;
     color: #ffffff;
     text-decoration: none;
@@ -66,34 +66,35 @@ body{
     padding-right: 30px;
 }
 
-#posts{
+#posts {
     width: 60%;
     float: left;
-    font-family: Arial, Helvetica, sans-serif ;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.post{
+.post {
     padding: 7px;
 }
 
-.post h2{
+.post h2 {
     font-size: 30px;
     color: #333333;
 }
 
-.post .date{
+.post .date {
     display: block;
     color: #cccccc;
     margin-top: 5px;
 }
-.post p{
+
+.post p {
     margin-top: 10px;
     margin-bottom: 20px;
     line-height: 22px;
     text-align: justify;
 }
 
-.button-more{
+.button-more {
     display: block;
     font-size: 14px;
     text-align: center;
@@ -105,14 +106,15 @@ body{
     width: 70px;
 }
 
-#sidebar{
+#sidebar {
     display: block;
     font-family: Arial, Helvetica, sans-serif;
     width: 31%;
     float: right;
     margin: auto;
 }
-#sidebar h4{
+
+#sidebar h4 {
     margin-top: 50px;
     margin-bottom: 20px;
     text-align: center;
@@ -120,23 +122,24 @@ body{
     color: #333333;
     background: url("../img/lines.png") repeat-x;
 }
-#sidebar h4 span{
+
+#sidebar h4 span {
     background: #ffffff;
     padding: 4px;
 }
 
-#sidebar img{
+#sidebar img {
     width: 100%;
 }
 
-#sidebar p{
+#sidebar p {
     font-size: 15px;
     text-align: justify;
 }
 
 form input[type="text"],
 form input[type="password"],
-for input[type="email"]{
+for input[type="email"] {
     padding: 5px;
     border-radius: 2px;
     border: 1px solid #cccccc;
@@ -145,7 +148,7 @@ for input[type="email"]{
     margin-top: 5px;
 }
 
-form input[type="submit"]{
+form input[type="submit"] {
     font-size: 14px;
     background: #235E3D;
     color: #ffffff;
@@ -162,17 +165,18 @@ footer {
     background: rgba(51, 51, 51, 0.70);
     margin: 0px auto;
     width: 65%;
-    padding-left: 20px; 
+    padding-left: 20px;
     padding-right: 20px;
     margin-top: 50px;
     line-height: 47px;
 }
 
-.bx-wrapper, .bx-viewport {
+.bx-wrapper,
+.bx-viewport {
     height: 250px !important;
 }
 
-#selector-theme{
+#selector-theme {
     position: fixed;
     top: 40%;
     background: rgba(51, 51, 51, 0.5);
@@ -183,7 +187,7 @@ footer {
 
 #to-green,
 #to-red,
-#to-blue{
+#to-blue {
     width: 25px;
     height: 25px;
     display: block;
@@ -195,16 +199,24 @@ footer {
     cursor: pointer;
 }
 
-#to-green{
+#to-green {
     background: #235E3D;
     opacity: 0.7;
-    
 }
-#to-blue{
+
+#to-blue {
     background: #1787c4;
-    opacity: 0.7;;
+    opacity: 0.7;
 }
-#to-red{
+
+#to-red {
     background: #ca3413;
     opacity: 0.7;
+}
+
+.ascend {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    float: right;
 }

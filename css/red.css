@@ -1,20 +1,25 @@
-body{
+body {
     background: url("../img/rojo.jpg");
     background-attachment: fixed;
+    transition: 400ms;
 }
 
-#logo{
+#logo {
     background-color: #ca3413;
+    transition: 400ms;
 }
 
-#menu ul li:hover{
+#menu ul li:hover {
     background: #ca3413;
+    transition: 400ms;
 }
 
-.button-more{
+.button-more {
     background: #ca3413;
-}
-form input[type="submit"]{
-    background: #ca3413;
+    transition: 400ms;
 }
 
+form input[type="submit"] {
+    background: #ca3413;
+    transition: 400ms;
+}

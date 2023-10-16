@@ -1,19 +1,26 @@
-body{
+body {
     background: url("../img/hojas.jpg");
     background-attachment: fixed;
+    transition: 400ms;
 }
 
-#logo{
-    background-color: #235E3D;
+#logo {
+    background: #235E3D;
+    transition: 400ms;
 }
 
-#menu ul li:hover{
+#menu ul li:hover {
     background: #235E3D;
+    transition: 400ms;
 }
 
-.button-more{
+.button-more {
     background: #235E3D;
+    transition: 400ms;
 }
-form input[type="submit"]{
+
+form input[type="submit"] {
     background: #235E3D;
+    transition: 400ms;
+
 }
