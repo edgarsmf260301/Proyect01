@@ -23,3 +23,8 @@ form input[type="submit"] {
     background: #ca3413;
     transition: 400ms;
 }
+
+#logout{
+    background: #ca3413;
+    transition: 400ms;
+}

@@ -76,7 +76,7 @@ body {
     padding: 7px;
 }
 
-.post h2 {
+h2 {
     font-size: 30px;
     color: #333333;
 }
@@ -239,4 +239,32 @@ footer {
     left: 10px;
     margin-top: 18px;
     text-decoration: none;
+}
+
+#welcome{
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 10px;
+    color: #333333;
+    background: url("../img/lines.png") repeat-x;
+}
+
+#welcome span{
+    background: #ffffff;
+    padding: 4px;
+}
+#welcome span .form_name{
+    background-color: #235E3D;
+}
+
+#box{
+    width: 60%;
+    float: left;
+    margin-top: 40px;
+}
+#acordeon {
+    margin-top: 20px;
+    
 }
