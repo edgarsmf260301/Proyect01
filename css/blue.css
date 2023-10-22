@@ -1,35 +1,16 @@
-body {
-    background: url("../img/cielo.jpg");
-    background-attachment: fixed;
-    transition: 400ms;
-
+body{
+	background: url("../img/cielo.jpg");
+	background-attachment: fixed;
 }
 
-#logo {
-    background-color: #1787c4;
-    transition: 400ms;
-
+#logo{
+	background: #1F87C4;
 }
 
-#menu ul li:hover {
-    background: #1787c4;
-    transition: 400ms;
-
+#menu ul li:hover{
+	background: #1F87C4;
 }
 
-.button-more {
-    background: #1787c4;
-    transition: 400ms;
-
-}
-
-form input[type="submit"] {
-    background: #1787c4;
-    transition: 400ms;
-
-}
-
-#logout{
-    background: #1787c4;
-    transition: 400ms;
+.button-more{
+	background: #1F87C4;
 }

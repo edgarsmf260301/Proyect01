@@ -33,6 +33,7 @@ body {
     height: 80px;
     margin-bottom: 20px;
     float: left;
+    border-radius: 10px;
 }
 
 #menu {
@@ -41,6 +42,7 @@ body {
     width: 100%;
     text-transform: 20px;
     margin-bottom: 20px;
+    border-radius: 5px;
 }
 
 #menu ul {
@@ -56,6 +58,7 @@ body {
 
 #menu ul li:hover {
     background: #235E3D;
+    border-radius: 5px;
 }
 
 #menu a {
@@ -104,6 +107,7 @@ h2 {
     text-decoration: none;
     margin-top: 10px;
     width: 70px;
+    border-radius: 5px;
 }
 
 #sidebar {
@@ -139,7 +143,10 @@ h2 {
 
 form input[type="text"],
 form input[type="password"],
-form input[type="email"] {
+form input[type="email"],
+form input[type="date"], 
+form input[type="number"], 
+select{
     padding: 5px;
     border-radius: 2px;
     border: 1px solid #cccccc;
@@ -154,11 +161,12 @@ form input[type="submit"] {
     background: #235E3D;
     color: #ffffff;
     padding: 5px;
-    width: 100%;
+    width: 50%;
     border-radius: 5px;
     cursor: pointer;
     text-align: center;
     display: block;
+    margin: 0 auto;
     margin-top: 20px;
     border: none;
 }
@@ -281,4 +289,32 @@ footer {
     padding: 30px;
     text-align: center;
     margin: 0px auto;
+}
+
+#form_contact {
+    width: 50%;
+    margin-top: 15px;
+    font-family: Helvetica, Arial;
+}
+
+#form_contact label {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.form-error {
+    display: flex;
+    font-size: 11px;
+    background: #ff0000;
+    color: #ffffff;
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.form-error span {
+    justify-content: center;
 }
